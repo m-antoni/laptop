@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <!-- responsive in any viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap version three framework -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- my custom stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- sweetalert two framework-->
+    <script src="js/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <!-- lightbox framework -->
+    <link rel="stylesheet" href="css/lightbox.css">
+    <title>order_now</title>
+</head>
+    <body class="sign_up">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle"
+                            data-toggle="collapse" data-target="#collapsemenu"
+                            aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--navbar-toggle collapsed-->
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo/logo_final.png">
+                    </a>
+                    <p class="navbar-text" id="logo_text"><!--pending text for logo--></p>
+                </div><!--navbar-header-->
+                <div class="collapse navbar-collapse" id="collapsemenu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#" class="dropdown-toggle"
+                               data-toggle="dropdown"
+                               role="button" aria-haspopup="true"
+                               aria-expanded="false">Products
+                            <span class="caret"></span>
+                            <ul class="dropdown-menu">
+                                <li><a href="windows_laptops.html">windows</a></li>
+                                <li><a href="apple_mac.html">apple mac</a></li>
+                                <li><a href="new_arrival.html">featured laptop</a></li>
+                            </ul><!--Gallery dropdown-menu-->
+                        </a><!--Gallery dropdown-toggle-->
+                        </li> <!--Gallery dropdown-toggle-->
+                        <li><a href="articles.html">Articles</a></li>
+                        <li>
+                            <a href="#" class="dropdown-toggle"
+                                data-toggle="dropdown"
+                                role="button" aria-haspopup="true"
+                                aria-expanded="false">Services
+                                <span class="caret"></span>
+                                <ul class="dropdown-menu">
+                                    <li><a href="sign_up.html">sign up</a></li>
+                                    <li><a href="shipping.html">shipping</a></li>
+                                    <li><a href="service_center.html">service center</a></li>
+                                </ul><!--Gallery dropdown-menu-->
+                            </a><!--Gallery dropdown-toggle-->
+                        </li> <!--Gallery dropdown-toggle-->
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <!--list of form-search-->
+                    </ul> <!--list of menu-->
+                </div> <!--collapse navbar-collapse toggle collapse-->
+            </div> <!--container-fluid-->
+        </nav> <!--navbar-inverse-->
+
+        <!-- Main jumbotron for service center -->
+        <div class="jumbotron">
+            <div class="jumbo_inside">
+                <h1 class="display-3"><!--i have no idea my goodness--></h1>
+                <p class="lead">
+                    already a member <a href="#" class="link" data-target="#log_in" data-toggle="modal">Log in</a>
+                    not yet a Member? <a href="#" class="link" data-target="#sign_up" data-toggle="modal">Sign up</a>
+                </p>
+             </div>
+        </div>
+
+
+
+
+        <!-- modal section -->
+        <!--modal log-in -->
+
+        <div class="modal fade" id="log_in" tabindex="-1" role="dialog" aria-labelledby="modallabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close"
+                                data-dismiss="modal"><span>&times;</span></button>
+                        <h4 class="modal-title" id="modalLabel" align="center"><span id="login_logo"><img src="img/logo/log_in_logo.png"></span></h4>
+                    </div><!--modal-header-->
+                    <div class="modal-body">
+                        <div class="modal-p">
+                            <form>
+                                <div class="form-group">
+                                    <label class="control-label" for="inputName">username:</label>
+                                    <input class="form-control" type="text">
+                                    <span class=""><!--glyph icon here--></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label" for="inpuntEmail">password:</label>
+                                    <input class="form-control"  type="password"">
+                                </div>
+                                <div class="form-group">
+                                    <div class="checkbox">  
+                                        <label id="log_checkbox">
+                                            <input type="checkbox">remember me
+                                        </label>
+                                    </div>
+                                </div>
+                                <span id="#"><img src="img/logo/submit.png"></span><br>
+                                <a href="#">forgot password</a>
+                            </form>    
+                        </div><!--modal-p-->
+                    </div><!--modal-body-->
+                </div><!--content-->
+            </div><!--modal-dialog-->
+        </div><!--modal fade-->
+        
+
+        <!--modal sign-up -->
+
+        <div class="modal fade" id="sign_up" tabindex="-1" role="dialog" aria-labelledby="modallabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close"
+                                data-dismiss="modal"><span>&times;</span></button>
+                        <h1 class="modal-title" id="modalLabel" align="center">SIGN UP FORM</h1>
+                    </div><!--modal-header-->
+                    <div class="modal-body">
+                        <div class="modal-p">
+                            <form>
+                                <div class="form-group">
+                                    <label class="control-label" for="inputName">Username:</label>
+                                    <input class="form-control" type="text">
+                                    <span class=""><!--glyph icon here--></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label" for="inpuntEmail">Email Address:</label>
+                                    <input class="form-control"  type="email">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label class="control-label" for="inpuntEmail">Password:</label>
+                                    <input class="form-control"  type="password">
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label" for="inpuntEmail">Re-type password:</label>
+                                    <input class="form-control"  type="password">
+                                </div>
+
+                                <label class="control-label" for="inputName">Gender</label>
+                                <div class="radio">
+                                    <label>
+                                    <input name="option" type="radio">Male</label>  
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                    <input name="option" type="radio">Female</label>
+                                </div>
+                                <span id="#"><img src="img/logo/sign_up.png"></span><br>
+                            </form>    
+                        </div>
+                    </div><!--modal-body-->
+                </div><!--content-->
+            </div><!--modal-dialog-->
+        </div><!--modal fade-->
+
+
+        <section class="container-fluid footer">
+            <div class="listLogo">
+                <ul>
+                    <li id="follow">Follow us:</li>
+                    <li><a href="https://www.facebook.com" target="_blank"><img src="img/footer/fb.png"></a></li>
+                    <li><a href="https://twitter.com" target="_blank"><img src="img/footer/twitter.png"></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><img src="img/footer/ig.png"></a></li>
+                    <li><a href="https://www.youtube.com" target="_blank"><img src="img/footer/youtube.png"></a></li>
+                </ul>
+            </div>
+            <div class="footerText">
+                <p>
+                    <strong>Laptop X-pert Philippines </strong><br>
+                    Copyrights &copy; 2017-2018 All rights reserved.
+                </p>
+            </div>
+        </section>
+          
+
+
+        <!-- jquery 3.2 javascript library -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <!-- lightbox script framework -->
+        <script src="js/lightbox.min.js"></script>
+        <!-- bootstrap three script framework-->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- my custom script takes here-->
+        <script src="js/script.js"></script>
+    </body>
+</html>

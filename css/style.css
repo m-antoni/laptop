@@ -1,0 +1,1292 @@
+/*------------------------------------ global setting ---------------------------------------------------*/
+html ,body{
+    height: 100%;
+}
+
+a{
+    font-size: 1.3em;
+    color: #5f9ea0;
+}
+a:hover{
+    color: #ffe399; 
+}
+
+h3{
+    font-size: 1.2em;
+    color: #00ffff;
+}
+/*------------------------------------------------navigation bar------------------------------------------*/
+
+navbar-inverse {
+    background-color: rgba(0,0,0,.5);
+    border-radius: 0;
+    border: 0;
+}
+.navbar-inverse {
+    background-color: rgba(0,0,0,.5);
+    border-radius: 0;
+    border: 0;
+}
+.navbar-inverse .navbar-nav>li>a{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #ffe399;
+    border-bottom: 5px solid yellow ;
+
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+}
+.navbar-inverse  .navbar-nav .open .dropdown-menu>li>a:hover{
+    background-color: rgba(7,70,72,.5);
+}
+.navbar-inverse  .navbar-collapse .dropdown-menu{
+    background-color: rgba(0,0,0,.5);
+}
+.navbar-inverse .navbar-collapse .dropdown-menu>li>a{
+    padding: 0 20px;
+}
+
+.navbar-collapse ul>li:hover{
+    background-color: rgba(7,70,72,.5);
+}
+.navbar-brand{
+    padding: 0;
+    margin: 0;
+}
+        
+.navbar-brand img{                  /* logo icon index homepage */
+    height: 70px;
+    padding-top: 5px;
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+.navbar-brand img:hover{
+    transform: scale(1.1);
+}
+
+.apple .navbar-brand img{
+    margin-top: 0;                      /* index logo icon fix */
+}
+.windows_laptops .navbar-brand img{
+    margin-top: 0;                       /* index logo icon fixs */
+}
+
+.container blockquote{
+    left: 0;
+    background-color: rgba(0,0,0,.4);
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 3em;
+    font-size: 1.8em;
+    border-left: 5px solid black;
+}
+
+.container blockquote h1{
+    color: white;
+    font-weight: 700;
+}
+
+.container blockquote p{
+    font-size: 18px;
+    color: white;
+    max-width: 500px;
+}
+
+
+/*---------------------------------------global setting modal-footer------------------------------------*/
+
+.modal-footer{
+    background-color: #1d2129;
+    color: white;
+    font-size: .9em;
+    padding: 5px;
+}
+
+.modal-footer h5{
+    color: #00a0d2;
+}
+
+
+/*lightBox section ---- -------------------------bootstrap modal---------------------------------------------*/
+
+.lightbox .lb-image{
+    padding: 0;
+    background-color: #1d2129;
+}
+
+/*-----------------------------------------------index section------------------------------------------------*/
+.index .section{
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.index h3{
+    font-weight: 600;
+}
+.index .subSection{
+    height: 60%;
+    background-color: #843534;
+}
+.index .subTwo{
+   background: url('../img/wallpapers/payment.jpg') no-repeat;
+   background-size: cover;
+}
+.index .secOne{
+    background-image: url('../img/wallpapers/one.png');
+}
+.index .secTwo{
+    background-image: url('../img/wallpapers/secTwo.jpg');
+}
+.index .secThree{
+    background-image: url(../img/shipment/bb.jpg);
+}
+.index .subSection img{
+    margin-top: 20px;
+}
+.index .subSection #image01{
+    height: 160px;
+
+}
+.index .subSection #image02{
+    height: 150px;
+}
+.index .subSection #image03{
+    height: 150px;
+}
+.index .subSection #image04{
+     height: 150px;
+}
+.index .subSection .logo_text{
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+}
+
+.index .index_intro{
+    position: relative;
+    top: 250px;
+    padding: 10px 50px 0  60px;
+    background-color: rgba(0,66,79,.5);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+ }
+ .index .intro_image{
+    height: 100px;
+ }
+
+ .index .intro_image:hover{         /* company logo text*/
+    transform: scale(1.1);
+ }
+.index .index_intro .index_h1{
+    margin: 0;
+    font-size: 2.5em;
+    color: cyan;
+}
+.index .index_intro .index_p{
+    font-size: 1.5em;
+    color: white;
+}
+
+
+
+/*-----------------------------------------windows_laptop section-------------------------------------------*/
+.grid_one aside a img , .grid_two aside a img {
+    opacity: .9;
+}
+.grid_one aside a img:hover{
+    border: 5px solid #008080;
+    transform: scale(1.1);
+}
+.windows_laptops{
+    background-color: #1d2129;
+    color: #ffe399;
+    border-bottom: 10px solid white;
+}
+.windows_laptops .grid_one #win10_logo img{
+    position: relative;
+    left: 40%;
+    margin-top: 50px;
+    height: 170px;
+}
+.windows_laptops span img:hover{
+    transform: scale(1.1);
+}
+.windows_laptops h3{
+    font-size: 1.2em;
+}
+.windows_laptops h4{
+    font-size: 2em;
+    color: white;
+}
+.windows_laptops p{
+    font-size: 1em;
+    color: #31708f;
+}
+
+.windows_laptops s{
+    color: #ffe399;
+}
+
+.windows_laptops a img{
+    margin-top: 20px;
+}
+.windows_laptops .section{
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.windows_laptops .subSection{
+    background-color: #843534;
+}
+
+.windows_laptops .secOne {
+    background-image: url('../img/wallpapers/two.jpg');
+}
+.windows_laptop .footer .footerText p{
+    color: white;
+}
+
+/*-------------------------------windows laptops ( modal for laptop section )---------------------------------*/
+.windows_laptops .modal-content{
+    margin: 10px auto;
+    max-width: 900px;
+    background-color: black;
+}
+
+.windows_laptops .modal-content:hover{
+    background-color: #081828;
+}
+
+.windows_laptops .modal-p {
+    font-size: 1.2em;
+}
+
+.windows_laptops .modal-p .list{
+    margin-top: 40px;
+}
+
+.windows_laptops aside p{
+     font-size: 1.2em;
+     font-weight: 600;
+     color: #ffe399;
+}
+
+.windows_laptops aside{
+    line-height: .9em;
+}
+
+.windows_laptops .grid_one {
+    padding-bottom: 100px;
+}
+
+/*--------------------------------------windows laptop (jumbotron section)----------------------------------*/
+.windows_laptops .jumbotron{
+    color: white;
+    padding-bottom: 200px;
+    margin-bottom: 0;
+    background: url('../img/wallpapers/secTwo.jpg');
+    background-size: cover;
+}
+
+.windows_laptops .jumbo_inside{
+    margin-top: 150px;
+    padding: 30px;
+    background-color: rgba(0,66,79,.7);
+}
+.windows_laptops .jumbo_inside{
+    padding-left: 50px;
+}
+
+.windows_laptops .jumbotron h1{
+    font-weight: 600;
+}
+
+.windows_laptops .jumbotron p{
+    margin-top: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 2em;
+}
+.windows_laptops .jumbotron p a{
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+    padding: 10px;
+    background-color: rgba(0,0,0,.6);
+    color: cyan;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.windows_laptops .jumbotron p a:hover{
+    background-color: rgba(0,78,90,.6);
+    text-decoration: none;
+    color: yellow;
+    border: 3px solid white;
+}
+
+/*------------------------------windows laptop (modal-section order_now)------------------------------------*/
+
+.windows_laptops #order_now .modal-content{
+    height: 700px;
+}
+.windows_laptops #order_now .modal-content{
+    background-color: #2f4051;
+    border-radius: 20px;
+}
+.windows_laptops #order_now .modal-content .modal-header{
+    background-color: white;
+}
+.windows_laptops #order_now .modal-content .modal-header .modal-title li img{
+    height: 100px;
+    padding-right: 20px;
+    margin: 0;
+}
+.windows_laptops #order_now .modal-content .modal-header .modal-title ul{
+    text-align: center; 
+}
+.windows_laptops #order_now .modal-content .modal-header .modal-title ul li{
+    display: inline-block;
+}
+.windows_laptops #order_now .modal-p h1{
+    font-weight: 600;
+    color: brown;
+}
+
+.windows_laptops #order_now .modal-content form{
+    margin: 0 10px 20px 10px;
+}
+
+.windows_laptops #order_now .modal-content .modal-body{
+    background: url('../img/wallpapers/windows_modal.jpg');
+}
+
+.windows_laptops #order_now .modal-content .modal-body form input {
+    font-size: 1.2em;
+}
+.windows_laptops #order_now .modal-content .modal-body form label{
+    font-size: 1em;
+    font-weight: 500;
+    color: cyan;
+}
+.windows_laptops #order_now .modal-content .modal-body form textarea{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.windows_laptops #order_now .modal-content .modal-body form select, option{
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.windows_laptops #order_now .modal-content form span img{
+    height: 45px;
+}
+
+.windows_laptops #order_now .modal-content form span img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.windows_laptops #order_now .modal-content .modal-header .modal-title li img:hover{
+    transform: scale(1.2);
+}
+
+/* -----------------------------------apple mac section-------------------------------------------------*/
+.grid_two aside a img:hover{
+    border: 4px solid #008b8b;
+    opacity: 10;
+}
+.apple{
+    background-color: #1d2129;
+    color: #ffe399;
+    border-bottom: 10px solid white;
+}
+.apple .section{
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.apple .subSection{
+    background-color: #843534;
+}
+
+.apple .secOne {
+    background-image: url('../img/wallpapers/mac_section.jpg');
+}
+
+.apple a img{
+    margin-top: 20px;
+}
+
+.apple aside p{
+     font-size: 1.2em;
+     font-weight: 600;
+     color: #ffe399;
+}
+
+.apple aside{
+    line-height: .9em;
+}
+
+.apple .grid_two #apple_logo img{
+    position: relative;
+    top: 40px;
+    left: 35%;
+    height: 70px;
+    margin-bottom: 30px;
+}
+.apple span img:hover{
+    transform: scale(1.1);
+}
+
+.apple .second_footer{
+    margin-top: 0;
+}
+
+/*-------------------------------------------apple (jumbotron section)----------------------------------------*/
+
+.apple .jumbotron{
+    color: white;
+    margin-top: 100px;
+    padding-bottom: 200px;
+    margin-bottom: 0;
+    background: url('../img/wallpapers/secTwo.jpg');
+    background-size: cover;
+}
+
+.apple .jumbo_inside{
+    margin-top: 150px;
+    padding: 30px;
+    background-color: rgba(0,66,79,.7);
+}
+.apple .jumbo_inside{
+    padding-left: 50px;
+}
+
+.apple .jumbotron h1{
+    font-weight: 600;
+}
+
+.apple .jumbotron p{
+    margin-top: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 2em;
+}
+.apple .jumbotron p a{
+    position: relative;
+    top: 20px;s
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    background-color: rgba(0,0,0,.6);
+    color: cyan;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.apple .jumbotron p a:hover{
+    background-color: rgba(0,78,90,.6);
+    text-decoration: none;
+    color: yellow;
+    border: 3px solid white;
+}
+
+/*----------------------------------- apple mac (modal-section order_now) -------------------------------------*/
+
+.apple .modal-content{
+    margin: 10px auto;
+    max-width: 900px;
+    background: url('../img/wallpapers/one.png');
+    background-size: cover;
+}
+.apple .modal-content:hover{
+    border: 2px solid #31708f;
+}
+.apple .modal-p {
+    font-size: 1.2em;
+}
+
+.apple .modal-p .list{
+    margin-top: 40px;
+}
+
+.apple #order_now .modal-content{
+    height: 720px;
+}
+
+.apple #order_now .modal-content{
+    background-color: #2f4051;
+}
+
+.apple #order_now .modal-content .modal-header{
+    background-color: white;
+}
+
+.apple #order_now .modal-content .modal-body{
+    height: 520px;
+}
+.apple #order_now .modal-content form{
+    margin: 0 10px 20px 10px;
+}
+.apple #order_now .modal-content .modal-body form input{
+    font-size: 1.2em;
+}
+.apple #order_now .modal-content .modal-body form label{
+    font-size: 1em;
+    font-weight: 500;
+    color: cyan;
+}
+.apple #order_now .modal-content .modal-body form textarea{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.apple #order_now .modal-content .modal-body form option{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.apple #order_now .modal-content form span img{
+    margin-top: 0;
+    height: 60px;
+}
+
+.apple #order_now .modal-content form span img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.apple #order_now .modal-content:hover{
+    border: 1px solid #31708f;
+}
+
+.apple #order_now .modal-content .modal-header .modal-title li img{
+    height: 100px;
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+.apple #order_now .modal-content .modal-header .modal-title li img:hover{
+    transform: scale(1.2);
+}
+.apple #order_now .modal-content .modal-header .modal-title ul{
+    text-align: center; 
+}
+.apple #order_now .modal-content .modal-header .modal-title ul li{
+    display: inline-block;
+}
+.apple #order_now .modal-content .modal-header .modal-title li img{
+    padding-left: 0;
+    padding-right: 20px;
+}
+.apple #order_now .modal-content form span img{
+    height: 40px;
+}
+.apple #order_now .modal-content form span img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+/*---------------------------------------------- new_arrival section------------------------------------------*/
+.new_arrival{
+    background-color: #1d2129;
+    border-bottom: 10px solid white;
+    color: #ffe399;
+}
+.new_arrival .section{
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.new_arrival .secOne {
+    background-image: url('../img/wallpapers/newarrival.jpg');
+}
+
+.new_arrival .grid_three{
+    margin-bottom: 100px;
+}
+
+.new_arrival span img{
+    height: 70px;
+    padding-top: 20px;
+}
+.new_arrival span img:hover{
+    transform: scale(1.1);
+}
+
+.new_arrival .apple_header{
+    margin-top: 70px;
+}
+.new_arrival .apple_header img{
+    margin-bottom: 30px;
+}
+.new_arrival .apple_header h3{
+    font-size: 3.5em;
+}
+.new_arrival .apple_header p{
+    font-size: 1.5em;
+}
+
+.new_arrival .apple_header .grid_three{
+    margin-bottom: 200px;
+}
+
+.new_arrival .grid_three .specs , .address{
+    margin-top: 50px;
+}
+.new_arrival .grid_three h3{
+    font-size: 2em;
+}
+.new_arrival .grid_three ul li{
+    font-size: 1.2em;
+}
+.new_arrival .grid_three .specs img{
+     height: 100px;
+     padding: 5px;
+     margin-left: 10px;
+}
+.new_arrival .grid_three a #new_order{
+    height: 90px;
+    margin-left: 0;
+}
+.new_arrival .grid_three a #new_order:hover{
+    transform: scale(1.1);
+}
+
+
+
+/*---------------------------------------------- articles section --------------------------------------------*/
+
+.articles{
+    background-color: #1d2129;
+}
+.articles .articles_section{
+    margin: 100px 100px;
+}
+.articles .articles_section h3{
+    font-size: 1.9em;
+}
+.articles .articles_section h4{
+    color: white;
+    line-height: 1.5em;
+    text-decoration: underline;
+}
+.articles .articles_section p{
+    font-size: 1.2em;
+    color: white;
+}
+.articles .articles_section li{
+    font-size: 1em;
+    color: yellow;
+}
+.articles .magazine_section h3{
+    font-size: 2.5em;
+}
+.articles .magazine_section a img{
+    margin-top: 20px;
+    height: 40px;
+}
+
+.articles .magazine_section .thumbnail{
+    padding: 10px;
+    background-color: #843534;
+    margin-bottom: 100px;
+}
+
+.articles .magazine_section .thumbnail:hover{
+    background-color: grey;
+}
+
+.articles .subscribe .subs_email{
+    background-color: rgba(0,68,79,.6);   
+    padding: 30px;
+    margin-bottom: 30px;
+    border-right: 10px solid yellow;
+}
+
+.articles .subscribe .subs_email h3{
+    font-size: 1.3em;
+}
+
+.articles .subscribe .subs_email #subemail img{
+    margin: 10px;
+    height: 40px;
+}
+
+.articles .subscribe .subs_email #subemail img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.articles .articles_list .list-group{
+    margin-left: 60px;
+}
+.articles .articles_list .list-group .active{
+    background-color: #276668;
+}
+.articles .articles_list .list-group .list-group-item:hover{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+
+.articles .top_reviews h3{
+    font-size: 2.5em;
+}
+
+.articles .top_reviews p{
+    margin: 10px 0 50px 0;
+
+    color: yellow;
+    font-size: 1.5em;
+}
+
+
+
+/*----------------------------------------------- shipping section -------------------------------------------*/
+
+.shipping {
+    background-color: #1d2129;
+}
+
+.shipping h3{
+    font-size: 2.5em;
+}
+
+.shipping .fedex_logo img{
+    margin-top: 50px;
+    height: 160px;
+}
+
+.shipping .fedex_one{
+    padding: 20px;
+    background-color: rgba(0,66,79,.6);   
+    border-right: 10px solid orange;
+    color: white;
+    font-size: 1.2em;
+}   
+
+.shipping .fedex_two{
+    padding: 20px;
+    background-color: rgba(0,66,79,.6);   
+    border-right: 10px solid orange;
+    color: white;
+    margin-top: 50px;
+    font-size: 1.2em;
+}
+
+.shipping .fedex_three{
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: rgba(0,66,79,.6);   
+    border-right: 10px solid purple;
+    color: white;
+    margin-top: 50px;
+    font-size: 1.2em;
+}
+.shipping .fedex_three h3{
+    font-size: 1.2em;
+}
+.shipping #fedex_img_02 img{
+    margin-top: 50px;
+}
+
+.shipping #fedex_img_03 img{
+    margin-top: 50px;
+}
+
+.shipping .fedex_intro .container .row .fedex_delivery img{
+    margin-top: 70px;
+    height: 125px;
+    
+}
+.shipping .fedex_delivery .partnership{
+    padding: 10px;
+    background-color: rgba(0,66,79,.6);   
+    border-left: 10px solid purple;
+    color: white;
+    margin-top: 50px;
+}
+.shipping .fedex_delivery .partnership p{
+    font-size: 1.2em;
+}
+
+.shipping .video{
+    margin-top: 70px;
+}
+.shipping .video p{
+    margin: 10px 0 100px 0;
+    font-size: 1.7em;
+    color: yellow;
+}
+
+
+
+/*------------------------------------------------ service_center --------------------------------------------*/
+
+.service_center{
+    background-color: #1d2129;
+}
+
+.service_center .jumbotron{
+    margin-top: 30px;
+    color: white;
+    padding-bottom: 50px;
+    background: url('../img/wallpapers/service.jpg');
+    background-size: cover;
+}
+
+.service_center .jumbo_inside{
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgba(0,66,79,.6);
+}
+.service_center .jumbo_inside{
+    padding-left: 50px;
+}
+.service_center .jumbotron h1{
+     font-weight: 600;
+     font-size: 3.5em;
+}
+.service_center .jumbotron p{
+    margin-top: 20px;
+    color: yellow;
+    font-weight: 500;
+    font-size: 2em;
+}
+.service_center .jumbotron a{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.service_center .service_one img{
+    height: 140px;
+}
+.service_center .service_one{
+    text-align: center;
+}
+.service_center .service_one h3{
+    font-size: 2em;
+}
+.service_center .service_one p{
+    font-size: 1.2em;
+    color: white;
+}
+
+.service_center .service_two{
+    margin: 50px 0 70px 70px;
+    padding: 30px;
+    background-color: rgba(0,66,79,.6);
+    border-left: 5px solid brown;
+}
+.service_center .service_two h3{
+    font-size: 1.9em;
+}
+.service_center .service_two p{
+    font-size: 1.2em;
+    color: white;
+}
+.service_center .service_two li{
+    font-size: 1.2em;
+    color: yellow;
+}
+
+.service_center .service_international .list-group{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.service_center .service_international .list-group .active{
+    background-color: #276668;
+}
+.service_center .service_international .list-group .list-group-item:hover{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+
+.service_center .terms h2{
+    font-size: 2.5em;
+    color: yellow;
+    font-weight: 600;
+}
+
+.service_center .terms h3{
+    font-size: 1.7em;
+    font-weight: 600;
+}
+.service_center .terms p {
+    color: #ffe399;
+    font-size: 1.2em;
+}
+
+
+/*----------------------------------------sign up  (jumbotron section)-----------------------------------------*/
+
+.sign_up{
+    background-color: #708090;
+}
+
+.sign_up .jumbotron{
+    color: white;
+    padding-bottom: 200px;
+    margin-bottom: 0;
+    background: url('../img/wallpapers/sign_up_wallpaper.jpg');
+    background-size: cover;
+}
+
+.sign_up .jumbo_inside{
+    margin-top: 200px;
+    padding: 30px;
+    background-color: rgba(0,66,79,.7);
+}
+.sign_up .jumbo_inside{
+    padding-left: 50px;
+}
+
+.sign_up .jumbotron p{
+    margin-top: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 2em;
+}
+.sign_up .jumbotron p a{
+    color: cyan;
+}
+.sign_up .jumbotron p a:hover{
+   color: yellow;
+}
+
+
+/*--------------------------------------------------sign_up (log_in form) ------------------------------------*/
+
+.sign_up .modal-open .modal{
+    padding-right: 0;
+}
+.sign_up .modal-content{
+    background-color: #a53434;
+    border-radius: 20px;
+}
+.sign_up .modal-content .modal-header{
+    background-color: grey;
+}
+.sign_up .modal-content .modal-body{
+    height: 350px;
+}
+
+.sign_up .modal-content form{
+    margin: 10px 10px 40px 10px;
+}
+.sign_up .modal-content form label{
+    font-size: 1.4em;
+    color: cyan;
+}
+.sign_up .modal-p {
+    font-size: 1.2em;
+}
+.sign_up .modal-content form input{
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.sign_up .modal-content form span img{
+    margin: 0 0 10px 0;
+    height: 30px;
+}
+.sign_up .modal-content form span img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.sign_up .modal-content form a{
+    text-align: right;
+    font-size: 1em;
+    color: white; 
+}
+.sign_up .modal-content form a:hover{
+    color: #ffe399; 
+}
+
+.sign_up .modal-content #login_logo img{
+    height: 90px;
+}
+
+.sign_up .modal-p form #log_checkbox{
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+}
+
+/* -----------------------------------------------.sign_up (sign_up form) -------------------------------------*/
+.sign_up #sign_up .modal-content{
+    background-color: #2f4051;
+    border-radius: 20px;
+}
+
+.sign_up #sign_up .modal-content .modal-header{
+    background-color: grey;
+}
+.sign_up #sign_up h1{
+    font-weight: 600;
+    color: brown;
+}
+.sign_up  #sign_up .modal-content .modal-body{
+    height: 520px;
+}
+.sign_up . #sign_up modal-content form{
+    margin: 0 10px 20px 10px;
+}
+.sign_up #sign_up .modal-content .modal-body form input{
+    font-size: 1.3em;
+}
+.sign_up #sign_up .modal-content .modal-body form label{
+    font-size: 1.2em;
+    font-weight: 500;
+    color: cyan;
+}
+
+.sign_up #sign_up .modal-content form span img{
+    margin: 0 0 10px 0;
+    height: 35px;
+}
+
+
+/*-------------------------------------------------- contact section  ------------------------------------------*/
+.contact{
+    background-color: #1d2129;
+    color: #ffe399;
+    border-bottom: 10px solid white;
+}
+
+.contact .section{
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact .subSection{
+    height: 60%;
+    background-color: #843534;
+}
+
+.contact .secOne {
+    background-image: url('../img/wallpapers/contact.jpg');
+}
+
+.contact .sales_inquiries{
+    margin-top: 50px;
+}
+.contact .container blockquote h1{
+    color: cyan;
+}
+.contact .container blockquote {
+    margin-top: 350px;
+}
+.contact .container blockquote{
+    border-left:7px solid yellow;
+}
+.contact .sales_inquiries h2{
+    font-size: 2em;
+    font-weight: 600;
+    color: yellow;
+}
+.contact .sales_inquiries h3{
+    font-size: 1.6em;
+    color: white;
+}
+.contact .sales_inquiries p{
+    font-size: 1.2em;
+}
+.contact .sales_inquiries .number{
+    color: cyan;
+}
+
+.contact .sales_inquiries a{
+    font-size: 1.2em;
+    color: cyan;
+}
+
+.contact .sales_inquiries form{
+    margin-right: 0;
+}
+
+.contact .comment_section{
+    margin: 100px;
+}
+.contact .comment_section form img{
+    height: 35px;
+}
+.contact .comment_section form img:hover{
+    transform: scale(1.1);
+}
+.contact .comment_section form label{
+    font-weight: 500;
+    font-size: 1.3em;    
+    color: yellow;
+}
+
+.contact .comment_section form{
+    padding: 20px;
+    background-color: rgba(0,0,0,.6);
+}
+.contact .comment_section form:hover{
+    background-color: rgba(0,68,79,.6);
+}
+.contact .comment_section form{
+    border-top: 15px solid grey;
+    border-radius: 0 0 20px 20px;
+}
+.contact .comment_section .form-control{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.contact .comment_section .comments h2{
+    color: yellow;
+}
+
+.contact .comment_section .comments a{
+    position: relative;
+    top: 10px;
+    font-size: 1.7em;
+}
+
+
+/*---------------------------------------------------- about section-----------------------------------------*/
+.about{
+    background-color: #1d2129;
+    color: #ffe399;
+    border-bottom: 10px solid white;
+}
+
+.about .section{
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about .secOne blockquote{
+    margin-top: 300px;
+    background-color: rgba(0,0,0,.9);
+    border-left: 9px solid brown;
+}
+.about .secOne {
+    background-image: url('../img/wallpapers/ff.jpg');
+}
+
+.about .secOne img{
+    height: 100px;
+}
+.about .company {
+    margin: 70px 50px;
+}
+.about .company img{
+    margin-top: 60px;
+}
+.about .company h1{
+    font-size: 3em;
+    color: cyan;
+}
+.about .company h2{
+    color: yellow;
+    font-weight: 600;
+}
+.about .company span{
+    color: yellow;
+    font-size: 1.2em;
+}
+.about ul li{
+    list-style: none;
+    font-size: 1em;
+}
+.about ul li a{
+    color: cyan;
+}
+
+.about ul li a:hover{
+    color: #ffe399;
+}
+.about .accordion{
+    margin-top: 60px;
+}
+.about .accordion .panel-default .panel-title{
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+}
+.about .accordion .panel-default .panel-heading{
+    background-color: brown;
+}
+.about .accordion .panel-default .panel-heading:hover{
+    background-color: grey;
+}
+.about .accordion .panel-default>.panel-heading+.panel-collapse>.panel-body{
+    font-size: 1.2em;
+    background-color: brown;
+    color: white;
+}
+.about .accordion .panel-default>.panel-heading+.panel-collapse>.panel-body:hover{
+     background-color: grey;
+}
+
+
+/*-------------------------------------------------- footer section -----------------------------------------*/
+.second_footer{
+    margin-top: 100px;
+}
+
+.footer{
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+}
+.footer .listLogo{
+    float: right;
+    text-align: right;
+}
+
+.footer ul li{
+    list-style: none;
+    display: inline;
+}
+
+.footer ul li img{
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 0;
+    height: 43px;
+    width: 43px;
+}
+
+.footer ul li img:hover{
+    transform: scale(1.2) rotate(8deg);
+}
+.footer #follow{
+    padding-right: 15px;
+    color: #5bc0de;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.footer .footerText{
+    padding: 15px 10px 0 10px;
+    float: left;
+    color: #d6e9c6;
+}
+.footer .footerText strong{
+    color: #5bc0de;
+}
+.footer .footerText strong , p{
+    font-size: 1em;
+}
+
+
+
+
+
+

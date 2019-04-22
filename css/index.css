@@ -1,0 +1,66 @@
+/*index section*/
+
+html ,body{
+    height: 100%;
+}
+
+.index .section{
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.index .subSection{
+    height: 60%;
+    background-color: #843534;
+}
+
+.index .secOne{
+    background-image: url('../img/index/image1.jpg');
+}
+.index .secTwo{
+    background-image: url('../img/index/image2.jpg');
+}
+.index .secThree{
+    background-image: url('../img/index/image3.jpg');
+}
+
+.index .navbar-inverse {
+    background-color: rgba(0,0,0,.5);
+    border-radius: 0;
+    border: 0;
+}
+.index .navbar-inverse  .navbar-nav>li>a{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    color: white;
+}
+.index .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.index .navbar-inverse  .navbar-nav .open .dropdown-menu>li>a:hover{
+    background-color: rgba(0,0,10,.5);
+}
+.index .navbar-inverse  .navbar-collapse .dropdown-menu{
+    background-color: rgba(0,0,0,.5);
+}
+.index .navbar-inverse .navbar-collapse .dropdown-menu>li>a{
+    padding: 0 20px;
+}
+.index .navbar-brand{
+    padding: 0;
+    margin: 0;
+}
+.index .mainLogo img{
+    height: 80px;
+    padding: 0 0 0 20px;
+    margin-top: 0;
+}
+
+
+
+
+
+
